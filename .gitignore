@@ -1,0 +1,41 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Data files (nếu có file lớn)
+data/*.csv
+data/*.json
+
+# Models (ML project)
+models/
+*.h5
+*.pt
+*.pkl

@@ -1,0 +1,30 @@
+Experiment: lstm_baseline
+
+Config:
+{
+  "model_name": "LSTM",
+  "embed_dim": 128,
+  "hidden_dim": 128,
+  "num_layers": 1,
+  "num_classes": 5,
+  "dropout": 0.3,
+  "bidirectional": true,
+  "pooling": "mean",
+  "lr": 0.001,
+  "epochs": 5,
+  "max_len": 50,
+  "batch_size": 32
+}
+
+Metrics:
+{
+  "test_loss": 1.5540199841771807,
+  "accuracy": 0.3199095022624434,
+  "precision": 0.3417302436947739,
+  "recall": 0.3199095022624434,
+  "f1": 0.32124220061545805,
+  "macro_f1": 0.32288003050550557
+}
+
+Notes:
+Baseline LSTM with bidirectional=True and mean pooling.
